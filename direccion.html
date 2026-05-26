@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Hotel Marqués Del Peñon es un espacio diseñado para despertar los sentidos y transformar cada momento en una experiencia única.">
+    <title>Hotel Marqués Del Peñon</title>
+    <link rel="stylesheet" href="assets/css/master.css">
+    <link rel="stylesheet" href="assets/css/internas.css">
+    <link rel="shortcut icon" href="assets/images/logo.svg" type="image/x-icon">
+
+    <link href="https://fonts.cdnfonts.com/css/helvetica-neue-55" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity-fade@1/flickity-fade.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <gm-header></gm-header>
+
+    <section class="topo">
+        <div class="topo__content">
+            <div class="topo__content--text">
+                <h2 class="serif">Dirección</h2>
+            </div>
+        </div>
+    </section>
+
+    <section class="localizacao internas">
+        <div class="container">
+            <div class="localizacao__content">
+                <div class="localizacao__content--text">
+                    <h3><gm-endereco></gm-endereco></h3>
+                    <a href="https://www.google.com/maps/dir//Hotel+Marqu%C3%A9s+del+Pe%C3%B1on,+Calz.+Ignacio+Zaragoza+2441,+Zona+Urbana+Ejidal+Santa+Martha+Acatitla+Sur,+Iztapalapa,+09530+Ciudad+de+M%C3%A9xico,+CDMX,+M%C3%A9xico/@19.3788208,-99.0637679,12.58z/data=!4m8!4m7!1m0!1m5!1m1!1s0x85d1fd3a82cab351:0x89bebcd5c09b1c38!2m2!1d-99.023887!2d19.3776945?entry=ttu&g_ep=EgoyMDI2MDUwMi4wIKXMDSoASAFQAw%3D%3D"
+                        class="btn btn-dark" target="_blank">Trazar ruta</a>
+                </div>
+                <div class="localizacao__content--mapa">
+                    <div style="width: 100%;">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d120441.68532253691!2d-99.10962640799927!3d19.377695360987204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fd3a82cab351%3A0x89bebcd5c09b1c38!2sHotel%20Marqu%C3%A9s%20del%20Pe%C3%B1on!5e0!3m2!1spt-BR!2sbr!4v1778007203168!5m2!1spt-BR!2sbr"
+                            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <gm-footer></gm-footer>
+
+    <script src="assets/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="https://unpkg.com/flickity-fade@1/flickity-fade.js"></script>
+    <script src="assets/js/scripts.js"></script>
+</body>
+
+</html>
